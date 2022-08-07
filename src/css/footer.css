@@ -28,6 +28,9 @@
   line-height: 1.1;
   color: #ffffff;
   margin-bottom: 30px;
+  text-align: right;
+  display: inline;
+  padding: 20px;
 }
 
 .footer-contato li a {
@@ -38,7 +41,6 @@
   grid-column: 1 / -1;
   font-size: 1.125rem;
   color: #8f8f8f;
-  text-align: center;
 }
 
 @media (max-width: 800px) {
@@ -48,5 +50,7 @@
   }
   .footer-contato li {
     font-size: 1.5rem;
+    display: inline;
+    padding: 20px;
   }
 }
