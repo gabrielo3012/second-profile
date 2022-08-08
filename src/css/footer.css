@@ -23,9 +23,11 @@
   font-size: 2.25rem;
   line-height: 1.1;
   color: #ffffff;
-  margin-bottom: 30px;
-  display: inline;
-  padding: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  align-content: center;
+  padding: 10px;
+  justify-content: center;
 }
 
 .footer-contato li a {
@@ -45,6 +47,7 @@
   }
   .footer-contato li {
     font-size: 1.5rem;
-    padding-left: 0px;
+    padding-left: 1px;
+    display: inline;
   }
 }
