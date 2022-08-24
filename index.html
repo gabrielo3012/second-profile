@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 
+  <script>document.documentElement.classList.add('js');</script>
+
   <title>Profile Page</title>
 </head>
 <body>
@@ -30,7 +32,7 @@
   <main class="intro">
     <img src="./src/images/billy.jpg" alt="Grey Wolf">
     <div>
-      <h1>Desenvolvedor Front End</h1>
+      <h1 class="fadeInLeft" data-anime="200">Desenvolvedor Front End</h1>
       <p>Localizado em São Paulo</p>
     </div>
   </main>
@@ -149,6 +151,7 @@
         <p class="footer-copy">Billy Butcher. Alguns direitos reservados.</p>
     </div>
   </footer>
-
+  <script src="./src/js/plugins/simple-anime.js"></script>
+  <script src="./src/js/script.js"></script>
 </body>
 </html>
